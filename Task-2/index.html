@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+
+<body class="font-['Times_New_Roman'] bg-white">
+    <header class="bg-[#000080] text-white p-5 text-center">
+        <div>
+            <h1>Zunayed Hossain</h1>
+            <p>Web Developer</p>
+        </div>
+        <nav>
+            <a href="#home" class="text-white mx-2.5">Home</a>
+            <a href="#about" class="text-white mx-2.5">About</a>
+            <a href="#skills" class="text-white mx-2.5">Skills</a>
+            <a href="#education" class="text-white mx-2.5">Education</a>
+            <a href="#contact" class="text-white mx-2.5">Contact</a>
+        </nav>
+    </header>
+    <section class="m-5 p-5 bg-[#add8e6]">
+        <h2>Home</h2>
+
+        <img src="./zunayed_image.jpeg" alt="Zunayed Hossain" width="200" class="w-[200px]">
+
+        <div>
+            <h2>Hello, I am Zunayed</h2>
+            <p>I am a Web Developer.</p>
+            <a href="#contact">Contact Me</a>
+        </div>
+    </section>
+    <section class="m-5 p-5 bg-[#90ee90]">
+        <h2>About Me</h2>
+        <p>
+            I love to create simple and useful websites.
+            I am learning HTML and CSS.
+            My goal is to become a professional Web Developer.
+        </p>
+    </section>
+    <section class="m-5 p-5 bg-[#008b8b]">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>MERN</li>
+            <li>PERN</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+    <section class="m-5 p-5">
+        <h2>Education</h2>
+        <table class="w-full">
+            <tr>
+                <th class="border border-black p-2.5 bg-[#00ffff]">Degree</th>
+                <th class="border border-black p-2.5 bg-[#00ffff]">Institution</th>
+                <th class="border border-black p-2.5 bg-[#00ffff]">Year</th>
+                <th class="border border-black p-2.5 bg-[#00ffff]">Result</th>
+            </tr>
+            <tr>
+                <td class="border border-black p-2.5 bg-[#00ffff]">SSC</td>
+                <td class="border border-black p-2.5 bg-[#00ffff]">GMHSK</td>
+                <td class="border border-black p-2.5 bg-[#00ffff]">2020</td>
+                <td class="border border-black p-2.5 bg-[#00ffff]">4.70</td>
+            </tr>
+            <tr>
+                <td class="border border-black p-2.5 bg-[#00ffff]">HSC</td>
+                <td class="border border-black p-2.5 bg-[#00ffff]">L&S College</td>
+                <td class="border border-black p-2.5 bg-[#00ffff]">2022</td>
+                <td class="border border-black p-2.5 bg-[#00ffff]">4.50</td>
+            </tr>
+            <tr>
+                <td class="border border-black p-2.5 bg-[#00ffff]">BSc in CSE</td>
+                <td class="border border-black p-2.5 bg-[#00ffff]">NUBTK</td>
+                <td class="border border-black p-2.5 bg-[#00ffff]">2027</td>
+                <td class="border border-black p-2.5 bg-[#00ffff]">3.50</td>
+            </tr>
+        </table>
+    </section>
+    <section class="m-5 p-5 bg-[#ffffe0]">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" class="p-2 m-1.5" placeholder="Enter your name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="p-2 m-1.5" placeholder="Enter your email">
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" class="p-2 m-1.5" placeholder="Write your message..."></textarea>
+            <br>
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <br>
+            <label>Skills:</label>
+            <input type="checkbox" name="skills" value="HTML"> HTML
+            <input type="checkbox" name="skills" value="CSS"> CSS
+            <input type="checkbox" name="skills" value="JavaScript"> JavaScript
+            <input type="checkbox" name="skills" value="NodeJs"> Node.js
+            <input type="checkbox" name="skills" value="React"> React.js
+            <input type="checkbox" name="skills" value="Express"> Express.js
+            <input type="checkbox" name="skills" value="MongoDB"> MongoDB
+            <br>
+            <input type="submit" value="Submit" class="p-2 m-1.5">
+        </form>
+    </section>
+    <footer class="bg-[#000080] text-white text-center p-[15px]">
+        <p>All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

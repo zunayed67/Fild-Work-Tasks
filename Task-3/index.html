@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-50 min-h-screen p-4 sm:p-8 font-sans">
+    <main class="max-w-[1600px] mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+
+            <!-- Card 1: Net Sales -->
+            <div class="bg-white rounded-2xl border border-slate-100 p-6 shadow-xs hover:shadow-md transition-shadow">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-sm font-medium text-slate-500">Net Sales</span>
+                        <h2 class="text-3xl font-bold text-slate-900 mt-1">৳0</h2>
+                    </div>
+                    <span class="inline-flex items-center text-xs font-semibold text-emerald-600 bg-emerald-50 px-2 py-1 rounded-full">+0.00%</span>
+                </div>
+                <div class="border-t border-slate-100 mt-5 pt-4 space-y-2.5">
+                    <div class="flex justify-between text-sm">
+                        <span class="text-slate-500">Total Sales</span>
+                        <span class="font-semibold text-slate-700">৳0</span>
+                    </div>
+                    <div class="flex justify-between text-sm">
+                        <span class="text-slate-500">Sales Returns</span>
+                        <span class="font-semibold text-slate-700">৳0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Net Purchases -->
+            <div class="bg-white rounded-2xl border border-slate-100 p-6 shadow-xs hover:shadow-md transition-shadow">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-sm font-medium text-slate-500">Net Purchases</span>
+                        <h2 class="text-3xl font-bold text-slate-900 mt-1">৳0</h2>
+                    </div>
+                    <span class="inline-flex items-center text-xs font-semibold text-emerald-600 bg-emerald-50 px-2 py-1 rounded-full">+0.00%</span>
+                </div>
+                <div class="border-t border-slate-100 mt-5 pt-4 space-y-2.5">
+                    <div class="flex justify-between text-sm">
+                        <span class="text-slate-500">Total Purchases</span>
+                        <span class="font-semibold text-slate-700">৳0</span>
+                    </div>
+                    <div class="flex justify-between text-sm">
+                        <span class="text-slate-500">Purchase Returns</span>
+                        <span class="font-semibold text-slate-700">৳0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Outstanding Dues -->
+            <div class="bg-white rounded-2xl border border-slate-100 p-6 shadow-xs hover:shadow-md transition-shadow">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-sm font-medium text-slate-500">Outstanding Dues</span>
+                        <h2 class="text-3xl font-bold text-slate-900 mt-1">৳0</h2>
+                    </div>
+                    <span class="inline-flex items-center text-xs font-semibold text-emerald-600 bg-emerald-50 px-2 py-1 rounded-full">+0.00%</span>
+                </div>
+                <div class="border-t border-slate-100 mt-5 pt-4 space-y-2.5">
+                    <div class="flex justify-between text-sm">
+                        <span class="text-slate-500">Total Receivable</span>
+                        <span class="font-semibold text-slate-700">৳0</span>
+                    </div>
+                    <div class="flex justify-between text-sm">
+                        <span class="text-slate-500">Total Payable</span>
+                        <span class="font-semibold text-slate-700">৳0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4: Total Income -->
+            <div class="bg-white rounded-2xl border border-slate-100 p-6 shadow-xs hover:shadow-md transition-shadow">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-sm font-medium text-slate-500">Total Income</span>
+                        <h2 class="text-3xl font-bold text-slate-900 mt-1">৳0</h2>
+                    </div>
+                    <span class="inline-flex items-center text-xs font-semibold text-emerald-600 bg-emerald-50 px-2 py-1 rounded-full">+0.00%</span>
+                </div>
+                <div class="border-t border-slate-100 mt-5 pt-4 space-y-2.5">
+                    <div class="flex justify-between text-sm">
+                        <span class="text-slate-500">Net Sales</span>
+                        <span class="font-semibold text-slate-700">৳0</span>
+                    </div>
+                    <div class="flex justify-between text-sm">
+                        <span class="text-slate-500">Service Income</span>
+                        <span class="font-semibold text-slate-700">৳0</span>
+                    </div>
+                    <div class="flex justify-between text-sm">
+                        <span class="text-slate-500">Other Income</span>
+                        <span class="font-semibold text-slate-700">৳0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5: Total Expenses -->
+            <div class="bg-white rounded-2xl border border-slate-100 p-6 shadow-xs hover:shadow-md transition-shadow">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-sm font-medium text-slate-500">Total Expenses</span>
+                        <h2 class="text-3xl font-bold text-slate-900 mt-1">৳0</h2>
+                    </div>
+                    <span class="inline-flex items-center text-xs font-semibold text-emerald-600 bg-emerald-50 px-2 py-1 rounded-full">+0.00%</span>
+                </div>
+                <div class="border-t border-slate-100 mt-5 pt-4 space-y-2.5">
+                    <div class="flex justify-between text-sm">
+                        <span class="text-slate-500">Product Cost</span>
+                        <span class="font-semibold text-slate-700">৳0</span>
+                    </div>
+                    <div class="flex justify-between text-sm">
+                        <span class="text-slate-500">Salary Expense</span>
+                        <span class="font-semibold text-slate-700">৳0</span>
+                    </div>
+                    <div class="flex justify-between text-sm">
+                        <span class="text-slate-500">Operating Expenses</span>
+                        <span class="font-semibold text-slate-700">৳0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6: Net Profit/Loss -->
+            <div class="bg-white rounded-2xl border border-slate-100 p-6 shadow-xs hover:shadow-md transition-shadow">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-sm font-medium text-slate-500">Net Profit/Loss</span>
+                        <h2 class="text-3xl font-bold text-slate-900 mt-1">৳0</h2>
+                    </div>
+                    <span class="inline-flex items-center text-xs font-semibold text-emerald-600 bg-emerald-50 px-2 py-1 rounded-full">+0.00%</span>
+                </div>
+                <div class="border-t border-slate-100 mt-5 pt-4 space-y-2.5">
+                    <div class="flex justify-between text-sm">
+                        <span class="text-slate-500">Total Income</span>
+                        <span class="font-semibold text-slate-700">৳0</span>
+                    </div>
+                    <div class="flex justify-between text-sm">
+                        <span class="text-slate-500">Total Expenses</span>
+                        <span class="font-semibold text-slate-700">৳0</span>
+                    </div>
+                    <div class="flex justify-between text-sm">
+                        <span class="text-slate-500">Net Profit Margin (%)</span>
+                        <span class="font-semibold text-slate-700">0.00%</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>
